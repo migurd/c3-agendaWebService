@@ -3,6 +3,7 @@ plugins {
     alias(libs.plugins.jetbrains.kotlin.android)
 }
 
+
 android {
     namespace = "com.angelq.agendaws"
     compileSdk = 34
@@ -46,5 +47,6 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
-    implementation("com.android.volley:volley:1.0.0")
+    implementation ("com.android.volley:volley:1.2.1")
+    implementation ("androidx.core:core-ktx:1.8.0") // Reemplaza con la versión que estés usando
 }
